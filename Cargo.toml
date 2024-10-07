@@ -32,7 +32,6 @@ ssr = [
     "leptos/ssr",
     "leptos_meta/ssr",
     "leptos_router/ssr",
-    "dep:tracing",
 ]
 
 # Defines a size-optimized profile for the WASM bundle in release mode
