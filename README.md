@@ -44,6 +44,7 @@ By default, `cargo-leptos` uses `nightly` Rust, `cargo-generate`, and `sass`. If
 2. `rustup target add wasm32-unknown-unknown` - add the ability to compile Rust to WebAssembly
 3. `cargo install cargo-generate` - install `cargo-generate` binary (should be installed automatically in future)
 4. `npm install -g sass` - install `dart-sass` (should be optional in future
+5. Run `npm install` in end2end subdirectory before test
 
 ## Compiling for Release
 ```bash
