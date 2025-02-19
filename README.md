@@ -17,7 +17,7 @@ cargo install cargo-leptos --locked
 
 Then run
 ```bash
-cargo leptos new --git https://github.com/leptos-rs/start-axum-0.7
+cargo leptos new --git https://github.com/leptos-rs/start-axum
 ```
 
 to generate a new project template.
