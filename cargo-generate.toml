@@ -5,4 +5,4 @@ nightly = { prompt = "Use nightly features?", choices = ["No", "Yes"], default =
 ignore = ["rust-toolchain.toml"]
 
 [template]
-exclude = ["assets/*"]
+exclude = ["public/*"]
