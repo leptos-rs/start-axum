@@ -26,9 +26,9 @@ to generate a new project template.
 cd {{project-name}}
 ```
 
-to go to your newly created project.  
-Feel free to explore the project structure, but the best place to start with your application code is in `src/app.rs`.  
-Addtionally, Cargo.toml may need updating as new versions of the dependencies are released, especially if things are not working after a `cargo update`.
+to go to your newly created project.
+Feel free to explore the project structure, but the best place to start with your application code is in `src/app.rs`.
+Additionally, Cargo.toml may need updating as new versions of the dependencies are released, especially if things are not working after a `cargo update`.
 
 ## Running your project
 
@@ -51,7 +51,7 @@ By default, `cargo-leptos` uses `nightly` Rust, `cargo-generate`, and `sass`. If
 cargo leptos build --release
 ```
 
-Will generate your server binary in target/server/release and your site package in target/site
+Will generate your server binary in target/release and your site package in target/site
 
 ## Testing Your Project
 ```bash
@@ -62,7 +62,7 @@ cargo leptos end-to-end
 cargo leptos end-to-end --release
 ```
 
-Cargo-leptos uses Playwright as the end-to-end test tool.  
+Cargo-leptos uses Playwright as the end-to-end test tool.
 Tests are located in end2end/tests directory.
 
 ## Executing a Server on a Remote Machine Without the Toolchain
